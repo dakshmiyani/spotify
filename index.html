@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ <link rel="shortcut icon" href="assets/images/icons8-spotify-48.png" >
+    <title>Spotifiy</title>
+</head>
+<body>
+    <div class="ctn flex">
+    <div class="left border">
+        <div class="home bg-grey rounded m-1 p-1">
+            <div class="logo"><i class="fa-brands fa-spotify " style="font-size: 30px; color: green;"></i><span class="logotext">Spotify</span></div>
+            <ul>
+                <br>
+                <br>
+                <li><i class="fa-solid fa-house homeicon" style="font-size:24px;color: white;"></i><span class="icontext">Home</span></li><br>
+                <li><i class="fa-solid fa-magnifying-glass homeicon" style="font-size: 24px;"></i><span class="icontext">Search</span></li>
+            </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+           <div class="heading  flex">
+            <i class="fa-solid fa-book " style="font-size: 30px;"></i>
+            <h2 class="ylib">Your Library</h2>
+            
+           </div> 
+
+
+             <div class="songList">
+
+                    <ul>
+
+                    </ul>
+                </div>
+
+
+
+           <div class="footer ">
+            <div>
+  <a class="grey" href="https://www.spotify.com/in-en/legal/">
+    <span>Legal</span>
+  </a>
+</div>
+
+<div>
+  <a class="grey" href="https://www.spotify.com/in-en/safetyandprivacy/">
+    <span>Safety & Privacy Center</span>
+  </a>
+</div>
+
+<div>
+  <a class="grey" href="https://www.spotify.com/in-en/legal/privacy-policy/">
+    <span>Privacy Policy</span>
+  </a>
+</div>
+
+<div>
+  <a class="grey" href="https://www.spotify.com/in-en/legal/cookies-policy/">
+    <span>Cookies</span>
+  </a>
+</div>
+
+<div>
+  <a class="grey" href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+    <span>About Ads</span>
+  </a>
+</div>
+
+<div>
+  <a class="grey" href="https://www.spotify.com/in-en/accessibility/">
+    <span>Accessibility</span>
+  </a>
+</div>
+
+           </div>
+        </div>
+    </div>
+    <!-- right box -->
+    <div class="right border bg-grey rounded m-1 p-1 ">
+        <div class="header flex">
+            <div class="nav">
+              
+                <i class="fa-solid fa-arrow-left fa-2xl arrow" ;></i>
+                <i class="fa-solid fa-arrow-right fa-2xl arrow"></i>
+            </div>
+            <div class="buttons">
+                <button>Login</button>
+                <button>Signup</button>
+            </div>
+
+        </div>
+        <hr>
+          <div class="spotify-playlsit">
+            <h1>Spotify Playlists</h1>
+            <div class="cardctn">
+                <div class="card card1">
+                    <img src="assets/images/song1.jpg"  class="songposter" alt="poster">
+                    <div class="playbtn"><i class="fa-solid fa-circle-play " style="font-size: 40px; color: green;"></i></div>
+                    <h2 class="songtitle">Uyi Amma</h2>
+                    <p class="songdescp">
+Amitabh Bhattacharya, Amit Trivedi, Madhubanti Bagchi</p>
+                </div>
+                  <div class="card card2">
+                    <img src="assets/images/song2.jpg"  class="songposter" alt="poster">
+                                        <div class="playbtn"><i class="fa-solid fa-circle-play " style="font-size: 40px; color: green;"></i></div>
+
+                    <h2 class="songtitle">Jamal Kudu</h2>
+                    <p class="songdescp" style="margin-right: 5px;">
+"Dil ka dhooni, nasha udaaye, rang birangi  rooh jhalkaaye"</p>
+                </div>
+                <div class="card card3">
+                    <img src="assets/images/song3.jpg"  class="songposter" alt="poster">
+                                        <div class="playbtn"><i class="fa-solid fa-circle-play " style="font-size: 40px; color: green;"></i></div>
+
+                    <h2 class="songtitle">Best Of Dance</h2>
+                    <p class="songdescp" style="margin-right: 5px;">
+"Dil ka dhooni, nasha udaaye, rang birangi  rooh jhalkaaye"</p>
+                </div>
+
+            </div>
+              <div class="playerbox">
+
+
+                <div class="seekbar">
+                  <div class="circle">
+                      
+
+                  </div>
+
+
+                </div>
+                <div class="songinfo"></div>
+
+
+                <div class="songbuttons">
+                  <i class="fa-solid fa-backward-step" style="font-size: 25px;" id="prev" ></i>
+                  <span id="play"><i class="fa-solid fa-play" style="font-size: 25px;"  ></i></span></i>
+                  <i class="fa-solid fa-forward-step" style="font-size: 25px;" id="next" ></i>
+                </div>
+
+
+                <div class="songtime"></div>
+              </div>
+               
+    </div>
+  </div>
+    
+     </div>
+
+
+     <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,289 @@
+body{
+    background-color: black;
+    color: white;
+}
+.left{
+    width: 25vw;
+    padding:10px;
+}
+.right{
+    margin-top: 20px;
+    width: 75vw;
+    padding: 5px;
+    max-height: 94vh ;
+}
+
+
+.home ul li{
+    display: flex;
+    gap: 20px;
+  padding-top: 14px;
+    list-style-type: none;
+}
+.icontext{
+    display: flex;
+margin-top: -9%;
+font-size: 15px;
+}
+.logoicon{
+    width: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.logo{
+    margin: 20px;
+}
+.logotext{
+  
+    font-size: 15px;
+   margin-left: 20px;
+}
+.library{
+    min-height: 63vh;
+    margin-top: 8px;
+}
+.ylib{
+    margin-left: 20px;
+    margin-top: -1px;
+}
+.footer{
+  font-size: 15px;
+    gap: 2px;
+   position: absolute;
+bottom: 0;
+    margin-left: 10px;
+}
+
+footer a{
+    color: grey;
+}
+
+.homeicon{
+    margin-top: -10%;
+    margin-bottom: 5%;
+}
+
+/* heder right side */
+
+.header{
+    justify-content: space-between;
+   
+}
+
+button{
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.arrow{
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: black;
+    
+}
+
+.cardctn{
+display: flex;
+   
+    margin-left: 10px ;
+    min-width:70% ;
+    min-height: 60%;
+    gap: 10px;
+   
+
+}
+.card{
+ border: 2px solid white;
+   border-radius: 15px;}
+
+   .card:hover{
+    background-color: black;
+    transition: all 1s;
+    cursor: pointer;
+
+   }
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.songposter{
+margin-top: 20px;
+    width: 200px;
+    height:200px
+}
+.songtitle{
+    margin-left: 10%;
+   
+}
+
+.songdescp{
+    margin-left: 10%;
+    font-size: 10px;
+}
+ 
+
+.card {
+  position: relative; 
+}
+
+.playbtn {
+    background-color: black;
+    border-radius: 50%;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 70%;
+  opacity: 0;
+  transition: opacity 0.3s ease; 
+}
+
+.card:hover .playbtn {
+  opacity: 1;
+}
+
+.spotify-playlsit{
+    position: inherit;
+}
+.playerbox{
+position: absolute;
+filter: invert(1);
+width: 72%;
+background-color: #15101070;
+margin-top: 100px;
+height: 80px;
+border-radius: 10px;
+
+}
+
+.songbuttons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.seekbar{
+    height: 5px;
+    width: 98%;
+    ;
+     background-color: rgb(0, 0, 0);
+     border-radius: 10px;
+position: absolute;
+margin-left: 10px;
+bottom: 0;
+margin-bottom: 10px;
+cursor: pointer;
+}
+.circle{
+    height: 15px;
+    width: 15px ;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -5px;
+    left:0%;
+    transition: left 0.5s;
+}
+
+.songList ul{
+    padding: 0 12px;
+    
+}
+
+.songList ul li{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    border: 2px solid;
+ margin-top: 2%;
+ min-width: 150px;
+ min-height: 40px;
+ padding: 10px;
+ border-radius: 10px;
+ font-size: 10px;
+ cursor: pointer;
+}
+.playnowlib{
+ margin-left: 0%;
+}
+.playbtnlib{
+    width: 100%;
+   font-size: 25px;
+   gap: 25px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+.playnow{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.songbuttons{
+    cursor: pointer;
+
+}
+
+.songbuttons i{
+    cursor: pointer;
+   
+
+}
+
+.songinfo{
+    position: absolute;
+   margin-top: 15px;
+   margin-left: 30px;
+   font-size: 18px;
+}
+.songtime{
+    display: flex;
+    color: white;
+    width: 100%;
+ 
+  
+     justify-content: flex-end;
+     align-items: flex-start;
+  position: absolute;
+   font-size: 18px;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+ 
+
+
+/* iuhyiruhwoirj'wjrpsw jrp;wsr
+
+
+
+
+*/
+@media (max-width: 1400px){
+
+.left{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    position: absolute;
+    left: -100%;
+    transition: all 3s;
+    z-index: 1;
+    width: 233px;
+ 
+}
+.right{
+   width: 1000px
+}
+.playerbox{
+    width: 90vh;
+}
+
+
+
+}
+
+
+
+
